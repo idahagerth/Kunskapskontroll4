@@ -1,0 +1,527 @@
+body {
+  width: 100%;
+  background-color: #ffff;
+}
+html {
+  width: 100%;
+  background-color: #ffff;
+}
+
+div {
+  background-color: #ffff;
+}
+
+.loginBody {
+  background-color: #ffe8d6;
+}
+
+.frontPic {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+}
+
+.text {
+  border: solid rgb(31, 30, 30);
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 1em;
+  background-color: #ffff;
+}
+
+.hej {
+  font-size: x-large;
+  right: 5%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 100px;
+  padding-top: 1%;
+}
+.number {
+  font-weight: 600;
+}
+
+.navHeader {
+  justify-content: center;
+  padding: 1em;
+  font-weight: bolder;
+  background-color: #ffff;
+  font-size: large;
+  font-family: "Lora", serif;
+}
+
+.navLinks {
+  display: flex;
+  padding-left: 5em;
+  background-color: #ffff;
+}
+
+.navItem {
+  padding: 1em;
+  background-color: #ffff;
+  font-weight: bold;
+}
+a.bag {
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+}
+
+.Login {
+  position: absolute;
+  right: 7%;
+  top: 5%;
+  font-size: x-large;
+  font-weight: bold;
+  display: flex;
+}
+
+.code {
+  background-color: #d6e3f8;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  font-weight: none;
+  margin-bottom: -10px;
+  height: 20px;
+}
+.number {
+  font-size: small;
+  padding-top: 15%;
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shoePic {
+  object-fit: cover;
+  width: 70%;
+  padding-left: 25%;
+}
+
+.shoeGrid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  width: 88%;
+  background-color: #ffff;
+}
+
+.mainGrid {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  background-color: #ffff;
+  width: 100%;
+}
+
+h1.title {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: xx-large;
+  background-color: #ffff;
+  font-style: italic;
+}
+
+.price {
+  display: block;
+  float: left;
+  padding-left: 10%;
+  font-size: medium;
+}
+
+.cartButton {
+  float: right;
+  padding-right: 10%;
+  font-weight: bolder;
+}
+
+.productsPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 100px;
+}
+
+.sideBar {
+  height: 500px;
+  width: 250px;
+  position: fixed;
+  top: 20%;
+  right: 10%;
+  background-color: #d6e3f8;
+  color: #ffff;
+}
+.bigPic {
+  width: 220px;
+  padding-top: 4%;
+}
+
+.shoeCart {
+  top: 20%;
+  left: 0%;
+  position: relative;
+  padding-left: 25%;
+}
+
+button.radera {
+  background-color: #ffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  font-size: large;
+  border: solid black;
+}
+
+.titlePrice {
+  position: absolute;
+  top: 15%;
+  left: 42%;
+  font-weight: 600;
+}
+
+.checkout {
+  background-color: #ffff;
+  color: black;
+  border: none;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: large;
+}
+
+.total {
+  border: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d6e3f8;
+  font-size: x-large;
+  color: black;
+}
+
+.infoPic {
+  width: 300px;
+  position: absolute;
+  top: 20%;
+  right: 130%;
+}
+
+.productSideBar {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 16, 5%;
+  right: 0%;
+  background-color: #d6e3f8;
+  color: #ffff;
+}
+
+.title1 {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 20%;
+  right: -2%;
+  background-color: #d6e3f8;
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+}
+
+.title2 {
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  top: 60%;
+  right: 0%;
+  color: rgb(0, 0, 0);
+}
+
+.title3 {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  top: 55%;
+  right: -10%;
+  font-size: large;
+  color: black;
+}
+
+.title4 {
+  height: 5%;
+  width: 10%;
+  position: fixed;
+  top: 80%;
+  right: 14%;
+  background-color: #ffff;
+
+  transform: translate(-50%, -50%);
+  color: black;
+  border: none;
+}
+
+.loginSideBar {
+  height: 550px;
+  width: 450px;
+  margin-top: -150px;
+  margin-left: -225px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  background-color: #d6e3f8;
+  border-radius: 3px;
+}
+
+.userField {
+  width: 400px;
+  position: fixed;
+  top: 35%;
+  left: 36%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+}
+
+.passField {
+  width: 400px;
+  position: fixed;
+  top: 45%;
+  left: 36%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+}
+
+button.loginButton {
+  background-color: #96c5f7;
+  border: none;
+  color: #ffff;
+  position: absolute;
+  top: 49%;
+  left: 38%;
+  font-weight: bold;
+  font-size: larger;
+  width: 24%;
+}
+
+.Register {
+  background-color: #d6e3f8;
+  border: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 400%;
+  left: 43%;
+
+  font-size: xx-large;
+}
+
+.Register:hover {
+  text-decoration: underline;
+}
+
+.titleLogin {
+  background-color: #d6e3f8;
+  border: none;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 10%;
+  left: 42%;
+  font-weight: bold;
+
+  font-size: xx-large;
+}
+
+.reg1 {
+  height: 550px;
+  width: 400px;
+  margin-top: -150px;
+  margin-left: -250px;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  background-color: #ffff;
+  border-radius: 3px;
+}
+
+.reg2 {
+  height: 550px;
+  width: 400px;
+  margin-top: -150px;
+  margin-left: -250px;
+  position: fixed;
+  top: 40%;
+  right: 20%;
+  background-color: #ffff;
+  border-radius: 3px;
+}
+.a {
+  width: 350px;
+  position: fixed;
+  top: 24%;
+  left: 24.5%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.b {
+  width: 350px;
+  position: fixed;
+  top: 32%;
+  left: 24.5%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.c {
+  width: 350px;
+  position: fixed;
+  top: 40%;
+  left: 24.5%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.d {
+  width: 350px;
+  position: fixed;
+  top: 48%;
+  left: 24.5%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.e {
+  width: 350px;
+  position: fixed;
+  top: 56%;
+  left: 24.5%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.f {
+  width: 350px;
+  position: fixed;
+  top: 24%;
+  right: 21.9%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.g {
+  width: 350px;
+  position: fixed;
+  top: 32%;
+  right: 21.9%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.h {
+  width: 350px;
+  position: fixed;
+  top: 40%;
+  right: 21.9%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.i {
+  width: 350px;
+  position: fixed;
+  top: 48%;
+  right: 21.9%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.j {
+  width: 350px;
+  position: fixed;
+  top: 56%;
+  right: 21.9%;
+  height: 7%;
+  border-radius: 3px;
+  font-size: large;
+  border: solid black;
+}
+
+.k {
+  background-color: #d6e3f8;
+  border: none;
+  color: #ffff;
+  position: absolute;
+  top: 450%;
+  left: 38%;
+  font-size: larger;
+  width: 350px;
+  border-radius: 0%;
+  height: 50.26px;
+}
+
+.myded {
+  margin: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.logOut1 {
+  position: absolute;
+  left: 60px;
+}
+
+.bordsTabell {
+  border: solid black 1px;
+  width: 70%;
+}
+
+.anvandare {
+  border: solid black 1px;
+  width: 35%;
+  position: absolute;
+  right: 0px;
+  top: 15.05%;
+}
+
+.rows {
+  border: solid black;
+}
